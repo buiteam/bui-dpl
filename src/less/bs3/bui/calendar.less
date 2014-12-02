@@ -85,14 +85,16 @@
       padding: 4px 5px;
       width: 22px;
     }
-
+    &:focus{
+      outline: none;
+    }
     td.x-datepicker-date{
       em{
         font-style: normal;
       }
       a{
         display: block;
-        padding: 5px 0;
+        padding: 3px 0;
         text-align: center;
         color: @grayDark;
         &:hover, &:focus{
@@ -133,10 +135,10 @@
     td.x-datepicker-selected{
       a{
         color: @white;
-        background-color: #3276b1;
-
+        background-color: @brandPrimary;
+        text-decoration: none;
         &:hover, &:focus{
-          background-color: #3276b1;
+          background-color: @brandPrimary;
         }
       }
     }
@@ -198,7 +200,7 @@
     width: 32px;
     a{
       display: block;
-      padding: 5px 0;
+      padding: 3px 0;
       text-align: center;
       color: @grayDark;
       &:hover, &:focus{
@@ -224,17 +226,17 @@
     }
     li{
       float: left;
-      margin: 4px 0 0 4px;
-      width: 50px;
-      height: 36px;
+      margin: 4px 0 0 6px;
+      width: 44px;
+      height: 32px;
 
       a{
         display: block;
         // padding: 9px 0 11px;
         text-align: center;
         color: @grayDark;
-        height: 36px;
-        line-height: 36px;
+        height: 32px;
+        line-height: 32px;
         &:hover{
           background-color: @grayLighter;
           text-decoration: none;
@@ -244,10 +246,10 @@
     .x-monthpicker-item-selected{
       a{
         color: @white;
-        background-color: #3276b1;
-        
+        background-color: @brandPrimary;
+        text-decoration: none;
         &:hover{
-          background-color: #3276b1;
+          background-color: @brandPrimary;
         }
       }
     }
