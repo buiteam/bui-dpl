@@ -438,3 +438,24 @@ td.x-grid-rownumber{
   text-align: center;
   background-color: @tableActive;
 }
+
+
+.x-col-checkbox{
+  background:  url("@{checkIconPath}") 0 3px no-repeat;
+  width: 13px;
+  height: 20px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.x-col-checkbox-checked{
+  background-position: 0 -17px;
+}
+
+.bui-grid-row-disabled .x-col-checkbox{
+  background-position: -48px 3px;
+}
+
+.bui-grid-row-disabled .x-col-checkbox-checked{
+  background-position: -48px -17px;
+}
