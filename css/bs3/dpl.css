@@ -3525,6 +3525,7 @@ input.calendar-time {
   display: inline;
   *zoom: 1;
   height: 48px;
+  line-height: 30px;
 }
 .form-horizontal input[class*="span"],
 .form-horizontal select[class*="span"] {

@@ -585,6 +585,11 @@
   *zoom: 1;
 }
 
+.controls .x-checkbox,
+.controls .x-radio {
+  margin-top: 4px;
+}
+
 .x-checkbox:hover,
 .x-radio:hover,
 .bui-list-item-hover .x-checkbox,
