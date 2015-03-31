@@ -24,7 +24,7 @@
   },
   "licenses": "MIT",
   "spm": {
-    "main": "",
+    "main": "css/bs3/bui.css",
     "output": [
       "./css/**/*.*",
       "./img/**/*.*",
