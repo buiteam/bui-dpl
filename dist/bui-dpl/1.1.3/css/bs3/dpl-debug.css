@@ -1725,8 +1725,9 @@ fieldset[disabled] .x-icon-question.active {
 @font-face {
   font-family: 'bui-iconfont';
   src: url(../../iconfont.eot);
-  src: url(../../iconfont.eot?#iefix) format('embedded-opentype'),  url(../../iconfont.woff) format('woff'),  url(../../iconfont.ttf) format('truetype'), ;
+  src: url(../../iconfont.eot?#iefix) format('embedded-opentype'),  url(../../iconfont.woff) format('woff'),  url(../../iconfont.ttf) format('truetype');
   /* IE9*/
+  /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
 }
 
 .iconfont {
