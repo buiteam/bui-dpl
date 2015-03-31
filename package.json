@@ -1,6 +1,6 @@
 {
   "name": "bui-dpl",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "bui DPL(Design Pattern Library)",
   "keywords": ["bui", "dpl"],
   "author": "",
@@ -12,6 +12,7 @@
     "url": "https://github.com/buiteam/bui-dpl/issues"
   },
   "devDependencies": {
+    "gulp": "^3.8.6",
     "gulp-clean": "^0.3.1",
     "gulp-concat": "^2.1.7",
     "gulp-less": "^1.2.3",
