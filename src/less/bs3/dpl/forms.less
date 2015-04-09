@@ -118,7 +118,7 @@ textarea{
 }
 
 //宽度
-input,select,textarea,select{
+input,textarea,select{
 	font-family: @baseFontFamily;
 	line-height:@baseLineHeight;
 	&.input-normal{
@@ -131,6 +131,19 @@ input,select,textarea,select{
 
 	&.input-large{
 		width:@controlLarge;
+	}
+}
+select{
+	&.input-normal{
+		width:@controlNormal + @paddingBaseHorizontal * 2 + 2;
+	}
+
+	&.input-small{
+		width:@controlSmall + @paddingBaseHorizontal * 2 + 2;
+	}
+
+	&.input-large{
+		width:@controlLarge + @paddingBaseHorizontal * 2 + 2;
 	}
 }
 
@@ -275,8 +288,11 @@ input.calendar-time{
 	margin-bottom:@baseLineHeight;
 	border:1px solid @tableBorder;
 	.border-radius(@radius);
-	input,select{
+	input{
 		width:100px;
+	}
+	select{
+		width: 100 + @paddingBaseHorizontal * 2 + 2;
 	}
 	.panel-title{
 		background-color:@backColor;
